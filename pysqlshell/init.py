@@ -11,7 +11,7 @@ from mysqlsh.plugin_manager import plugin
 # Create a class representing the structure of the plugin and use the
 # @register_plugin decorator to register it
 @plugin
-class pysqlshell():
+class pysqlshell:
     """Plugin to manage the Python Connector for MySQL Shell Service.
 
     This global object exposes a list of shell extensions
